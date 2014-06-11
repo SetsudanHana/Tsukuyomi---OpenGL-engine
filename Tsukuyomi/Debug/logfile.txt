@@ -1,0 +1,62 @@
+Wed Jun 11 09:54:08 2014 - SDL2 window created
+Wed Jun 11 09:54:08 2014 - OGL instance created
+Wed Jun 11 09:54:08 2014 - 4.0.12422 Core Profile Context 13.152.1.2000
+Wed Jun 11 09:54:08 2014 - 1.10.0
+Wed Jun 11 09:54:08 2014 - OGL instance initialized
+Wed Jun 11 09:54:08 2014 - OpenGL Debug Enabled
+Wed Jun 11 09:54:08 2014 - Created Shader id: 3
+Wed Jun 11 09:54:08 2014 - Created Shader id: 6
+Wed Jun 11 09:54:08 2014 - IndexBufferObject created! Id: 1
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 2
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 3
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 4
+Wed Jun 11 09:54:08 2014 - TextureObject id: 1 created
+Wed Jun 11 09:54:08 2014 - IndexBufferObject created! Id: 5
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 6
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 7
+Wed Jun 11 09:54:08 2014 - VertexBuffer created! Id: 8
+Wed Jun 11 09:54:08 2014 - TextureObject id: 2 created
+Wed Jun 11 09:54:08 2014 - VertexArray created! Id: 1
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 2 binded to VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 1 enabled in VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 4 binded to VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 2 enabled in VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 3 binded to VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 3 enabled in VertexArray id: 1
+Wed Jun 11 09:54:08 2014 - VertexArray created! Id: 2
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 6 binded to VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 1 enabled in VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 8 binded to VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 2 enabled in VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - VertexBuffer id: 7 binded to VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - VertexBufferType: 3 enabled in VertexArray id: 2
+Wed Jun 11 09:54:08 2014 - TextureObject id: 3 created
+Wed Jun 11 09:54:08 2014 - TextureObject id: 4 created
+Wed Jun 11 09:54:08 2014 - TextureObject id: 5 created
+Wed Jun 11 09:54:08 2014 - TextureObject id: 6 created
+Wed Jun 11 09:54:09 2014 - VertexBuffer created! Id: 9
+Wed Jun 11 09:54:09 2014 - IndexBufferObject created! Id: 10
+Wed Jun 11 09:54:09 2014 - VertexArray created! Id: 3
+Wed Jun 11 09:54:09 2014 - VertexBuffer id: 9 binded to VertexArray id: 3
+Wed Jun 11 09:54:09 2014 - VertexBufferType: 0 enabled in VertexArray id: 3
+Wed Jun 11 09:54:40 2014 - VertexArray released! Id: 1
+Wed Jun 11 09:54:40 2014 - VertexArray released! Id: 2
+Wed Jun 11 09:54:40 2014 - VertexArray released! Id: 3
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 1
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 2
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 3
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 4
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 5
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 6
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 7
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 8
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 9
+Wed Jun 11 09:54:40 2014 - VertexBuffer/IndexBuffer released! Id: 10
+Wed Jun 11 09:54:40 2014 - Texture id 1 released
+Wed Jun 11 09:54:40 2014 - Texture id 2 released
+Wed Jun 11 09:54:40 2014 - Texture id 3 released
+Wed Jun 11 09:54:40 2014 - Texture id 4 released
+Wed Jun 11 09:54:40 2014 - Texture id 5 released
+Wed Jun 11 09:54:40 2014 - Texture id 6 released
+Wed Jun 11 09:54:40 2014 - Program id: 3 released
+Wed Jun 11 09:54:40 2014 - Program id: 6 released

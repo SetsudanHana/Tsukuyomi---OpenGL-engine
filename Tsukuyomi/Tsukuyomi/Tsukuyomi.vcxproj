@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{654D2F14-9EAA-44D3-AD01-D2884C09DE4B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Tsukuyomi</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\SDL2\include;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\glm;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\GLEW\include;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\FreeImage\include;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\assimp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\SDL2\lib\x86;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\GLEW\lib\Release\Win32;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\FreeImage\lib;C:\Users\setsu_000\Documents\Visual Studio 2012\Projects\Tsukuyomi\Tsukuyomi\lib\assimp\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BufferDeleter.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="EventCatcher.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="MeshElement.h" />
+    <ClInclude Include="IndexBufferObject.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshFactory.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="OGL.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderDeleter.h" />
+    <ClInclude Include="ShaderFactory.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainFactory.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureDeleter.h" />
+    <ClInclude Include="TextureFactory.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="VertexArrayObject.h" />
+    <ClInclude Include="VertexBufferObject.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BufferDeleter.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="EventCatcher.cpp" />
+    <ClCompile Include="IndexBufferObject.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshFactory.cpp" />
+    <ClCompile Include="MeshElement.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="OGL.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderDeleter.cpp" />
+    <ClCompile Include="ShaderFactory.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainFactory.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureDeleter.cpp" />
+    <ClCompile Include="TextureFactory.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="VertexArrayObject.cpp" />
+    <ClCompile Include="VertexBufferObject.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
