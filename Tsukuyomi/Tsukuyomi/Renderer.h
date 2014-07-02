@@ -3,17 +3,17 @@
 #include "OGL.h"
 #include "Scene.h"
 #include "Shader.h"
+#include "GBuffer.h"
+#include "ShaderFactory.h"
 
 enum ProgramType
 {
-	Model_NONE,
-	Model_D,
-	Model_P,
-	Model_S,
-	Terrain_NONE,
-	Terrain_D,
-	Terrain_P,
-	Terrain_S
+	Model_Geometry,
+	Terrain_Geometry,
+	Light_D,
+	Light_P,
+	Light_S,
+	Light_N
 };
 
 class Renderer
@@ -33,6 +33,7 @@ public:
 	void render(const Scene&);
 
 private:
+	GBuffer* m_gbuffer;
 	OGL* m_ogl;
 	std::map<ProgramType, Shader> m_programs;
 };

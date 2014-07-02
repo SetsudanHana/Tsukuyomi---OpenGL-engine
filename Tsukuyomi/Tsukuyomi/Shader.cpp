@@ -121,3 +121,11 @@ void Shader::setMatrix4(const glm::mat4& mat, const std::string& name)
 	}
 	glUniformMatrix4fv(tmp, 1, GL_FALSE, glm::value_ptr(mat));
 }
+
+void Shader::useProgram()
+{
+	std::stringstream out;
+	out << "Using program: " << m_programme;
+	Logger::getInstance()->write(out.str());
+	glUseProgram(m_programme);
+}

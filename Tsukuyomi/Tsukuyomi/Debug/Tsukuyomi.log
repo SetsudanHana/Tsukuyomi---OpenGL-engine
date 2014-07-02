@@ -1,9 +1,51 @@
-﻿Build started 2014-06-09 19:56:17.
-     1>Project "C:\Users\setsu_000\documents\visual studio 2012\Projects\Tsukuyomi\Tsukuyomi\Tsukuyomi.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         Tsukuyomi.vcxproj -> C:\Users\setsu_000\documents\visual studio 2012\Projects\Tsukuyomi\Debug\Tsukuyomi.exe
-     1>Done Building Project "C:\Users\setsu_000\documents\visual studio 2012\Projects\Tsukuyomi\Tsukuyomi\Tsukuyomi.vcxproj" (Build target(s)).
+﻿Build started 2014-07-02 13:25:35.
+     1>Project "E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Tsukuyomi\Tsukuyomi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Tsukuyomi.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt GBuffer.cpp Renderer.cpp main.cpp
+         GBuffer.cpp
+         Generating Code...
+         Compiling...
+         Renderer.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Debug\Tsukuyomi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Debug\Tsukuyomi.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Debug\Tsukuyomi.lib" /MACHINE:X86 Debug\BufferDeleter.obj
+         Debug\Camera.obj
+         Debug\Command.obj
+         Debug\EventCatcher.obj
+         Debug\GBuffer.obj
+         Debug\IndexBufferObject.obj
+         Debug\Input.obj
+         Debug\Light.obj
+         Debug\Logger.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshFactory.obj
+         Debug\MeshElement.obj
+         Debug\Model.obj
+         Debug\OGL.obj
+         Debug\Renderer.obj
+         Debug\ResourceManager.obj
+         Debug\Scene.obj
+         Debug\Shader.obj
+         Debug\ShaderDeleter.obj
+         Debug\ShaderFactory.obj
+         Debug\stdafx.obj
+         Debug\Terrain.obj
+         Debug\TerrainFactory.obj
+         Debug\Texture.obj
+         Debug\TextureDeleter.obj
+         Debug\TextureFactory.obj
+         Debug\Timer.obj
+         Debug\VertexArrayObject.obj
+         Debug\VertexBufferObject.obj
+         Debug\Window.obj
+         Tsukuyomi.vcxproj -> E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Debug\Tsukuyomi.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Debug\Tsukuyomi.bsc" /n Debug\BufferDeleter.sbr Debug\Camera.sbr Debug\Command.sbr Debug\EventCatcher.sbr Debug\GBuffer.sbr Debug\IndexBufferObject.sbr Debug\Input.sbr Debug\Light.sbr Debug\Logger.sbr Debug\main.sbr Debug\Mesh.sbr Debug\MeshFactory.sbr Debug\MeshElement.sbr Debug\Model.sbr Debug\OGL.sbr Debug\Renderer.sbr Debug\ResourceManager.sbr Debug\Scene.sbr Debug\Shader.sbr Debug\ShaderDeleter.sbr Debug\ShaderFactory.sbr Debug\stdafx.sbr Debug\Terrain.sbr Debug\TerrainFactory.sbr Debug\Texture.sbr Debug\TextureDeleter.sbr Debug\TextureFactory.sbr Debug\Timer.sbr Debug\VertexArrayObject.sbr Debug\VertexBufferObject.sbr Debug\Window.sbr
+     1>Done Building Project "E:\projekty\Tsukuyomi---OpenGL-engine\Tsukuyomi\Tsukuyomi\Tsukuyomi.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.36
+Time Elapsed 00:00:05.30

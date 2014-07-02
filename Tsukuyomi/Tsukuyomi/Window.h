@@ -11,8 +11,13 @@ public:
 	~Window();
 
 	SDL_Window* getWindow();
-	bool createWindow();
+	bool createWindow(const unsigned& = 800,const unsigned& = 600);
+
+	unsigned getHeight();
+	unsigned getWidth();
 
 private:
 	SDL_Window* m_window;
+	unsigned m_width;
+	unsigned m_height;
 };

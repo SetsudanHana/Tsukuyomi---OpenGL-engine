@@ -1,62 +1,987 @@
-Mon Jun 09 19:56:21 2014 - SDL2 window created
-Mon Jun 09 19:56:21 2014 - OGL instance created
-Mon Jun 09 19:56:22 2014 - 4.0.12422 Core Profile Context 13.152.1.2000
-Mon Jun 09 19:56:22 2014 - 1.10.0
-Mon Jun 09 19:56:22 2014 - OGL instance initialized
-Mon Jun 09 19:56:22 2014 - OpenGL Debug Enabled
-Mon Jun 09 19:56:22 2014 - Created Shader id: 3
-Mon Jun 09 19:56:22 2014 - Created Shader id: 6
-Mon Jun 09 19:56:22 2014 - IndexBufferObject created! Id: 1
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 2
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 3
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 4
-Mon Jun 09 19:56:22 2014 - TextureObject id: 1 created
-Mon Jun 09 19:56:22 2014 - IndexBufferObject created! Id: 5
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 6
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 7
-Mon Jun 09 19:56:22 2014 - VertexBuffer created! Id: 8
-Mon Jun 09 19:56:22 2014 - TextureObject id: 2 created
-Mon Jun 09 19:56:22 2014 - VertexArray created! Id: 1
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 2 binded to VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 1 enabled in VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 4 binded to VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 2 enabled in VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 3 binded to VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 3 enabled in VertexArray id: 1
-Mon Jun 09 19:56:22 2014 - VertexArray created! Id: 2
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 6 binded to VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 1 enabled in VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 8 binded to VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 2 enabled in VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - VertexBuffer id: 7 binded to VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - VertexBufferType: 3 enabled in VertexArray id: 2
-Mon Jun 09 19:56:22 2014 - TextureObject id: 3 created
-Mon Jun 09 19:56:22 2014 - TextureObject id: 4 created
-Mon Jun 09 19:56:22 2014 - TextureObject id: 5 created
-Mon Jun 09 19:56:23 2014 - TextureObject id: 6 created
-Mon Jun 09 19:56:23 2014 - VertexBuffer created! Id: 9
-Mon Jun 09 19:56:23 2014 - IndexBufferObject created! Id: 10
-Mon Jun 09 19:56:23 2014 - VertexArray created! Id: 3
-Mon Jun 09 19:56:23 2014 - VertexBuffer id: 9 binded to VertexArray id: 3
-Mon Jun 09 19:56:23 2014 - VertexBufferType: 0 enabled in VertexArray id: 3
-Mon Jun 09 19:57:34 2014 - VertexArray released! Id: 1
-Mon Jun 09 19:57:34 2014 - VertexArray released! Id: 2
-Mon Jun 09 19:57:34 2014 - VertexArray released! Id: 3
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 1
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 2
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 3
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 4
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 5
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 6
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 7
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 8
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 9
-Mon Jun 09 19:57:34 2014 - VertexBuffer/IndexBuffer released! Id: 10
-Mon Jun 09 19:57:34 2014 - Texture id 1 released
-Mon Jun 09 19:57:34 2014 - Texture id 2 released
-Mon Jun 09 19:57:34 2014 - Texture id 3 released
-Mon Jun 09 19:57:34 2014 - Texture id 4 released
-Mon Jun 09 19:57:34 2014 - Texture id 5 released
-Mon Jun 09 19:57:34 2014 - Texture id 6 released
-Mon Jun 09 19:57:34 2014 - Program id: 3 released
-Mon Jun 09 19:57:34 2014 - Program id: 6 released
+Wed Jul 02 13:25:43 2014 - SDL2 window created
+Wed Jul 02 13:25:43 2014 - OGL instance created
+Wed Jul 02 13:25:44 2014 - 4.0.12422 Core Profile Context 13.152.1.2000
+Wed Jul 02 13:25:44 2014 - 1.10.0
+Wed Jul 02 13:25:44 2014 - OGL instance initialized
+Wed Jul 02 13:25:44 2014 - Buffer generated, id: 
+Wed Jul 02 13:25:44 2014 - Textures for GBuffer generated
+Wed Jul 02 13:25:48 2014 - GBuffer instance initialized
+Wed Jul 02 13:25:48 2014 - OpenGL Debug Enabled
+Wed Jul 02 13:25:48 2014 - Created Shader id: 3
+Wed Jul 02 13:25:48 2014 - Created Shader id: 6
+Wed Jul 02 13:25:48 2014 - IndexBufferObject created! Id: 1
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 2
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 3
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 4
+Wed Jul 02 13:25:48 2014 - TextureObject id: 6 created
+Wed Jul 02 13:25:48 2014 - IndexBufferObject created! Id: 5
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 6
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 7
+Wed Jul 02 13:25:48 2014 - VertexBuffer created! Id: 8
+Wed Jul 02 13:25:48 2014 - TextureObject id: 7 created
+Wed Jul 02 13:25:48 2014 - VertexArray created! Id: 1
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 2 binded to VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 1 enabled in VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 4 binded to VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 2 enabled in VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 3 binded to VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 3 enabled in VertexArray id: 1
+Wed Jul 02 13:25:48 2014 - VertexArray created! Id: 2
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 6 binded to VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 1 enabled in VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 8 binded to VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 2 enabled in VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - VertexBuffer id: 7 binded to VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - VertexBufferType: 3 enabled in VertexArray id: 2
+Wed Jul 02 13:25:48 2014 - TextureObject id: 8 created
+Wed Jul 02 13:25:48 2014 - TextureObject id: 9 created
+Wed Jul 02 13:25:48 2014 - TextureObject id: 10 created
+Wed Jul 02 13:25:49 2014 - TextureObject id: 11 created
+Wed Jul 02 13:25:49 2014 - VertexBuffer created! Id: 9
+Wed Jul 02 13:25:49 2014 - IndexBufferObject created! Id: 10
+Wed Jul 02 13:25:49 2014 - VertexArray created! Id: 3
+Wed Jul 02 13:25:49 2014 - VertexBuffer id: 9 binded to VertexArray id: 3
+Wed Jul 02 13:25:49 2014 - VertexBufferType: 0 enabled in VertexArray id: 3
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 3
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:49 2014 - Using program: 6
+Wed Jul 02 13:25:49 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 3
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:50 2014 - Using program: 6
+Wed Jul 02 13:25:50 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 3
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - Using program: 6
+Wed Jul 02 13:25:51 2014 - Attaching mat4 that doesnt exist, world
+Wed Jul 02 13:25:51 2014 - VertexArray released! Id: 1
+Wed Jul 02 13:25:51 2014 - VertexArray released! Id: 2
+Wed Jul 02 13:25:51 2014 - VertexArray released! Id: 3
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 1
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 2
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 3
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 4
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 5
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 6
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 7
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 8
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 9
+Wed Jul 02 13:25:51 2014 - VertexBuffer/IndexBuffer released! Id: 10
+Wed Jul 02 13:25:51 2014 - Texture id 6 released
+Wed Jul 02 13:25:51 2014 - Texture id 7 released
+Wed Jul 02 13:25:51 2014 - Texture id 8 released
+Wed Jul 02 13:25:51 2014 - Texture id 9 released
+Wed Jul 02 13:25:51 2014 - Texture id 10 released
+Wed Jul 02 13:25:51 2014 - Texture id 11 released
+Wed Jul 02 13:25:51 2014 - Program id: 3 released
+Wed Jul 02 13:25:51 2014 - Program id: 6 released
+Wed Jul 02 13:25:51 2014 - GBuffer deleted, id: 1
+Wed Jul 02 13:25:51 2014 - SDLwidow deleted

@@ -5,6 +5,8 @@
 Window::Window()
 {
 	m_window = 0;
+	m_height = 0;
+	m_width = 0;
 }
 
 Window::Window(const Window& wnd)
@@ -14,6 +16,7 @@ Window::Window(const Window& wnd)
 
 Window::~Window()
 {
+	Logger::getInstance()->write("SDLwindow deleted");
 	SDL_Quit();
 }
 
@@ -22,9 +25,12 @@ SDL_Window* Window::getWindow()
 	return m_window;
 }
 
-bool Window::createWindow()
+bool Window::createWindow(const unsigned& width,const unsigned& height)
 {
-	m_window = SDL_CreateWindow("Tsukuyomi", 200, 200, 800, 600, SDL_WINDOW_OPENGL);
+	m_height = height;
+	m_width = width;
+
+	m_window = SDL_CreateWindow("Tsukuyomi", m_width/2, m_height/2, m_width, m_height, SDL_WINDOW_OPENGL);
 
 	if(!m_window)
 	{
@@ -38,4 +44,14 @@ bool Window::createWindow()
 	}
 
 	return true;
+}
+
+unsigned Window::getHeight()
+{
+	return m_height;
+}
+
+unsigned Window::getWidth()
+{
+	return m_width;
 }

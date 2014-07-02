@@ -9,14 +9,6 @@
 
 #include "VertexArrayObject.h"
 
-enum SceneLightning
-{
-	P,
-	S,
-	D,
-	NONE
-};
-
 class Scene
 {
 public:
@@ -34,7 +26,6 @@ public:
 	std::vector<Light*> Lights();
 	Camera* getCamera();
 
-	SceneLightning lightningType();
 
 	std::vector<VertexArrayObject> getVAOs(Mesh*);
 	VertexArrayObject getVAOs(Terrain*);
@@ -45,8 +36,6 @@ private:
 	std::vector<Model*> m_models;
 	std::vector<Light*> m_lights;
 	Camera* m_camera;
-
-	SceneLightning m_lightning;
 
 	std::map<Mesh*, std::vector<VertexArrayObject> > m_meshVAOs;
 	std::map<Terrain*, VertexArrayObject > m_terrainVAOs;

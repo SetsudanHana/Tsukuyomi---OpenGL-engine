@@ -15,6 +15,8 @@ public:
 	void setProgramme(unsigned);
 	unsigned getProgramme();
 	
+	void useProgram();
+
 	void setField(const float&, const std::string&);
 	void setSampler(const UINT&, const std::string&);
 	void setVector2(const glm::vec2&, const std::string&);

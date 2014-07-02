@@ -4,12 +4,11 @@
 
 Scene::Scene()
 {
-	m_lightning = NONE;
+
 }
 
 Scene::Scene(const Scene& other)
 {
-	m_lightning = other.m_lightning;
 	m_lights = other.m_lights;
 	m_models = other.m_models;
 	m_terrains = other.m_terrains;
@@ -26,19 +25,6 @@ Scene::~Scene()
 void Scene::addLight(Light* light)
 {
 	m_lights.push_back(light);
-
-	switch( light->getType() )
-	{
-	case POINT_LIGHT:
-		m_lightning = P;
-		break;
-	case SPOT_LIGHT:
-		m_lightning = S;
-		break;
-	case DIRECTION_LIGHT:
-		m_lightning = D;
-		break;
-	}
 }
 
 void Scene::addModel(Model* model)
@@ -95,11 +81,6 @@ std::vector<Terrain*> Scene::Terrains()
 Camera* Scene::getCamera()
 {
 	return m_camera;
-}
-
-SceneLightning Scene::lightningType()
-{
-	return m_lightning;
 }
 
 std::vector<VertexArrayObject> Scene::getVAOs(Mesh* mesh)

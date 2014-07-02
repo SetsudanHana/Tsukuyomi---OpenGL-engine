@@ -30,16 +30,6 @@ int WINAPI WinMain( _In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 		end = true;
 	}, SDL_GetScancodeFromKey(SDLK_ESCAPE));
 
-	ShaderFactory shader_factory;
-
-	Shader shader = shader_factory.createShader("test_direction");
-
-	renderer.addProgram(Model_D, shader);
-
-	Shader terrain_none = shader_factory.createShader("terrain_direction");
-
-	renderer.addProgram(Terrain_D, terrain_none);
-
 	Scene scene;
 
 	Camera camera;
@@ -58,20 +48,6 @@ int WINAPI WinMain( _In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	dwarf.setMesh(mesh);
 
 	scene.addModel(&dwarf);
-	
-	Light light(DIRECTION_LIGHT);
-
-	light.setPosition(glm::vec3(180.0f, 400.0f, 420.0f));
-	light.setInner( 20.0f );
-	light.setOuter( 35.0f );
-	light.setRadius( 1000.0f );
-	light.setColor(glm::vec3(1.0f));
-	light.setDirection( glm::vec3(0.0f, -1.0f, 0.0f));
-	light.m_ambient = glm::vec3( 0.0f );
-	light.setShiness( 100.0f );
-	light.setSpecularPower( 0.05f );
-
-	scene.addLight(&light);
 	
 	TerrainFactory terrainFactory;
 
